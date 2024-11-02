@@ -119,7 +119,7 @@ class BubbleNormal extends StatelessWidget {
               BoxConstraints(maxWidth: MediaQuery.of(context).size.width * .8),
           margin: margin,
           padding: padding,
-          child: GestureDetector(
+          child: InkWell(
             onTap: onTap,
             onDoubleTap: onDoubleTap,
             onLongPress: onLongPress,
