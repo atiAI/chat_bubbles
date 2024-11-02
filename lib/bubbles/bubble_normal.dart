@@ -147,7 +147,7 @@ class BubbleNormal extends StatelessWidget {
                     padding: stateTick
                         ? EdgeInsets.fromLTRB(12, 6, 28, 6)
                         : EdgeInsets.symmetric(vertical: 6, horizontal: 12),
-                    child: SelectableText(
+                    child: Text(
                       text,
                       style: textStyle,
                       textAlign: TextAlign.left,
